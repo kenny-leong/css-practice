@@ -1,0 +1,60 @@
+.sign-in {
+    position: relative;
+    left:70%;
+    text-decoration: none;
+    font-size: large;
+    color: green;
+}
+
+.get-started {
+    position: relative;
+    left: 75%;
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 2px;
+    font-size: large;
+    color: green;
+}
+
+.nav__lower {
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.nav__lower a {
+    padding: 60px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.content {
+    margin: auto;
+    width: 50%;
+}
+
+#title {  
+    padding: 4px;
+    
+}
+
+.main__img {
+    
+    width: 100%;
+    
+}
+
+.grid {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+} 
+
+.grid a {
+    padding: 20px;
+}
+
+.help, .about {
+    position: relative;
+    left: 90%;
+}
