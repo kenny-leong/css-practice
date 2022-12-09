@@ -1,0 +1,43 @@
+body {
+    background-color: #EFEFEF;
+}
+
+fieldset {
+    background-color: white;
+}
+
+.blue-box {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+.orange-box {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    box-sizing: border-box;
+}
+
+.outer-layer-2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.outer-layer-3 > p + p {
+    color: orange;
+}
+
+.outer-layer-4 {
+    box-shadow: 0 0 4px rgba(0, 0, 255, 0.6);
+}
+
+.outer-layer-5 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.outer-layer-6 > div + div{
+    font-family: 'Courier New', Courier, monospace;
+}
